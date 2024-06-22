@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1024px){
+    .featurescontainer{
+        flex-wrap: wrap;
+        gap:2rem;
+        
+    }
+    .featurescontainer{
+        flex: none;
+        justify-content: space-evenly;
+    }
+    .whyUsContainer, .featuresbox, .termsContainer{
+        padding-left: 5rem;
+        padding-right: 5rem;
+       
+    }
+    
+}
+.termsContainer{
+    font-size: 0.7rem;
+   
+}
+
+@media only screen and (max-width: 800px){
+    .whyUsContainer, .featuresbox, .termsContainer{
+        padding-left: 3rem;
+        padding-right: 3rem;
+       
+    }
+    .whyUsBox{
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+    .whyUsContent{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    .horizontalLine{
+        border-width: 0.2rem;
+        width: 4rem;
+    }
+    .featurecontent{
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 575px){
+   
+   .feauturesParts{
+        width: 20rem;
+   }
+   .featurescontainer{
+    gap:1rem;   
+}
+.imageContainer{
+    width: 10rem;
+    
+}
+.textBox{
+    width: 11rem;
+    font-size: 0.8rem;
+    height: 9rem;
+    padding-top: 5.6rem;
+}
+.activityText{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
+.featurecontent{
+    font-size: 0.9rem;
+}
+.whyUsImage{
+    width: 2rem;
+
+}
+.whyUsContent{
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+}
+.whyUsBox{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+.horizontalLine{
+    border-width: 0.15rem;
+    width: 3rem;
+}
+}
+
+@media only screen and (max-width: 500px){
+    .whyUsContainer, .featuresbox, .termsContainer{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+       
+    }
+    .imageContainer{
+        width: 9rem;
+        
+    }
+    .textBox{
+        width: 10rem;
+        font-size: 0.8rem;
+        height: 9rem;
+        padding-top: 5.6rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .imageContainer{
+        width: 8rem;
+    }
+    .textBox{
+        width: 8.5rem;
+        font-size: 0.4rem;
+        height: 7.8rem;
+        padding-top: 4.8rem;
+        font-weight: 400;
+
+    }
+}
