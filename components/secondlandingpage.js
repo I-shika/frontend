@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import './secondlandingpage.css';
-import LightboxComponent from './thirdcarouselpage';
+
 
 const images=[
     '/images/booking.svg',
@@ -201,6 +201,6 @@ export default function SecondPart() {
     <div class="text-right pr-40 pl-40 pb-10 text-base termsContainer">
     *T&Cs apply | ** Based on similar branded projects in the last 2 years. Source 1 | Source 2
     </div>
-    <LightboxComponent images={images} startIndex={0} />
+    
     </div>);
 }
